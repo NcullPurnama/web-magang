@@ -1,0 +1,13 @@
+.login {
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh;
+    margin-left: 80vh; 
+  }
+  
+  .card-body {
+    width: 300px; 
+    padding: 20px;
+  }
+  

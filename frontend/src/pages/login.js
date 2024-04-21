@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/login.css';
+import { Link } from 'react-router-dom';
 
 function LoginPage() {
   const [username, setUsername] = useState('');
@@ -24,6 +25,7 @@ function LoginPage() {
 
   return (
     <div>
+      {/* login */}
       <div className="login">
         <div className="card-body ">
           <h1>Login</h1>
@@ -36,8 +38,14 @@ function LoginPage() {
             <label>Password:</label><br></br>
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
-          <button type="submit">Login</button>
+          {/* <button type="submit">Login</button> */}
+          <Link to="/home" className="btn" type="button">Login</Link>
           </form>
+
+          <div className='regis'>
+            <button type='regis'>Create Account</button>
+          </div>
+
         </div>
       </div>
     </div>

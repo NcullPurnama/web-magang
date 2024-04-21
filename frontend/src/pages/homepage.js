@@ -1,13 +1,12 @@
-// LandingPage.js
 import React from 'react';
 import Navbar from '../etc/navbar';
 import Footer from '../etc/footer';
 
-function LandingPage() {
+function HomePage() {
   return (
     <div>
       <Navbar />
-      {/* carrousel */}
+      {/* carrousel
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -46,7 +45,8 @@ function LandingPage() {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
+      <h1>Hello World</h1>
       <Footer />
     </div>
   );
@@ -54,4 +54,4 @@ function LandingPage() {
 
 
 
-export default LandingPage;
+export default HomePage;
